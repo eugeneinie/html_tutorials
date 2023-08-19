@@ -2,17 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-        <meta name="author" content="Dave Gray">
-        <meta name="description" content="This page contains all the things I am learning how to build as I learn HTML.">
-        <title>My Umpteenth Web Page</title>
-        <link rel="icon" href="./images/html-5.png" type="image/x-icon">
-        <link rel="stylesheet" href="./main.css" type="text/css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/code_favicon.png" type="image/x-icon">  
+    <link rel="stylesheet" href="./main.css" type="text/css">
+    <title>HTML_Text_Basics</title>  
 </head>
 <body>
-        <h1>Hello World!</h1>
-        <p>This is my umpteenth web page.</p>
-    </body>
-    <footer>
-        <a target="_blank" href="https://icons8.com/icon/19293/code">Code</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-    </footer>
-</html>  
+    <h1>Hello World!</h1>
+     
+    <hr>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#HTML">Learning HTML</a>
+            </li>
+            <li>
+                <a href="#Vacation">Planning a vacation</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="HTML">
+        <h2>I'm learning HTML</h2>
+        <p>This is my umpteenth web page.
+    
+        </p>
+        
+        <h3>My Daily Schedule</h3>
+        <p>Let me tell you how:
+            <br>&nbsp;&nbsp;&nbsp;...I learn more about web dev 
+            <br>&nbsp;&nbsp;&nbsp;...I plan out my schedule.
+            <br>&nbsp;&nbsp;&nbsp;...I use resources from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/">MDN</a></abbr>. 
+        </p>
+    
+        <h3>My Daily Schedule</h3>
+        <p>Let me tell you how:</p>
+        <ol>
+            <li>...I learn more about web dev</li> 
+            <li>...I plan out my schedule.</li>
+            <li>...I use resources from <abbr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/">MDN</a></abbr>.</li>
+        </ol>
+    </section>
+
+    <hr>
+
+    <section id="Vacation">
+        <h2>I Am Also Planning a Vacation</h2>
+        <p>I've been working hard and <em>really need a getaway</em>.</p>
+        <p>In live in <abbr title="Lagos">Lag</abbr> so I want to visit a beach.</p>
+        
+        <h3>Places I'd Like to Visit;</h3>
+        <ul>
+            <li>
+                <p>I've heard great things about the Grenadines</p>
+            </li>
+            <li>
+                <p>I've also heard that Banana Island is a great place to visit</p>
+                <address>
+                    No. 38 Moleye street,<br>
+                    Alagomeji, Yaba, Lagos Mainland,<br>
+                    Lagos state, Nigeria.                    
+                </address>
+            </li>
+        </ul>
+    
+        <!-- To Do: Add more places-->
+        <h3>Places I Want to Avoid</h3>
+        <p>Anywhere that is <strong>extremely hot or cold</strong>, no way!</p>
+        <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is an <strong>extremely cold</strong> place</dd>
+            <dt>South Pole</dt>
+            <dd>Another <strong>extremely cold</strong> place</dd>
+            <dt>Mountain tops</dt>
+            <dd>These are also cold</dd>
+            <dt>Sahara desert</dt>
+            <dd>The heat here could roast a marshmallow!</dd>
+        </dl>
+    </section>
+
+    <hr>
+
+    &lt;&lt;&lt; &copy; <abbr title="Food-In-Transit Technologies"><a href="about.html">FIT Technologies</a></abbr> &gt;&gt;&gt;
+    <p>
+        <a href="#">Back to Top</a>
+    </p>
+</body>
+</html>
